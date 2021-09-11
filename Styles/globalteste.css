@@ -1,0 +1,34 @@
+*{/*Reset da pagina do site*/
+    margin-top: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{/*Cores padrão para as paginas*/
+    --black: #0d114f;
+    --white: #fafafa;
+    --ligh-blue: #e0ecff;
+    --blue: #3485ff;
+    --red: #e83f5b;
+    --background: #f6faff;
+    --overlay: #040911;
+    --icons-detais: #a5b0c1;
+
+    --grey-dark: #4d5e77;
+    --grey-blue: #a1b2cd;
+    --grey-light:#e5eaf1;
+
+    /* 1rem = 16px (User Agent) = 100% da resolução (User Agent)*/
+    --font-size: 62.5%;
+}
+
+body{
+    height: 100vh; /* vh = view height */
+    background: var(--background);
+}
+
+body, button, input, textarea{
+    font-size: clamp(14px, 1.6rem, 1vw);
+}
